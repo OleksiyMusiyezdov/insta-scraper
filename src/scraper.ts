@@ -1,7 +1,7 @@
 import * as puppeteer from "puppeteer";
 import { IResponse } from "./interfaces";
 
-export const scrapper = async (username: string): Promise<IResponse> => {
+export const scraper = async (username: string): Promise<IResponse> => {
   const url: string = `https://www.instagram.com/accounts/login/?next=/${username}/`;
 
   try {
